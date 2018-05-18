@@ -1,0 +1,513 @@
+
+body{
+
+font-family:Arial,Helvetica;
+background-color:white;
+ overflow:-moz-scrollbars-vertical; 
+ overflow-x:hidden;
+ overflow:-moz-scrollbars-vertical; 
+
+
+}
+#banner{
+width:100%; 
+height:95px;
+background-color:white;
+
+
+}
+yanF{
+width:100%;
+height:1200px;
+background-color:white;
+}
+
+
+ul { 
+  text-align:center; 
+  width : 100%; 
+  list-style: none; 
+  padding:0; 
+  
+  } 
+   
+  li { 
+  padding:0 10px 0 0; 
+  float:none; 
+  display:inline-block; 
+  font-weight: bold;
+  margin-top:15px;
+
+  }
+
+
+
+.lt{
+
+background-color:white;
+width:70px;
+height:40px;
+
+
+
+}
+
+
+#orta{
+background-color:white;
+width:85%;
+height:1200px;
+float:right;
+
+}
+
+
+#yanFoto{
+width:200px;
+height:850px;
+background-color:white;
+float:left;
+
+
+
+}
+
+
+#ustKisim{
+background-color:#FDDB87;
+width:100%;
+height:20px;
+}
+
+#logoSite{
+background-color:white;
+width:100%;
+height:95px;
+
+}
+
+#header{
+
+background-color:#FDDB87;
+width:100%;
+height:50px;
+border-bottom:#e8491d;
+
+
+
+}
+
+
+
+#header a:hover{
+ color:#ED3124;
+ text-decoration: none;
+ 
+}
+
+#header a{
+ color:#1392a6;
+text-decoration:none;
+
+ 
+}
+
+}
+
+.analiz{
+
+background-color:red;
+width:1140px;
+height:920px;
+float:left;
+margin-top:60px;
+
+
+}
+
+
+.metin{
+width:168px; 
+height:250px; 
+background-color:white; 
+float:left
+
+
+}
+
+.resimler{
+
+width:168px;
+ height:250px;
+ background-color:gray; 
+ float:left
+
+}
+
+.ic_bolme{
+
+
+width:375px;
+height:250px;
+float:left;
+background-color:white;
+margin-top:30px
+  
+}
+
+.ic_bolme_roportajlar{
+
+
+    float:left;
+
+
+    width:525px;
+
+
+    height:170px;
+
+
+    border:white solid 5px;
+
+
+    background-color:white;
+
+
+   
+	
+	
+	
+	
+	
+	}
+#ropC{
+float:left;
+background-color:white;
+width:100%;
+height:92%;
+margin-top:50px;
+
+
+}
+
+
+.kolon{
+float:left;
+background-color:white;
+width:95%;
+height:200px;
+margin-bottom:20px;
+
+
+}
+
+.rmetin{
+
+width:260px; 
+height:170px; 
+background-color:white; 
+float:left;
+margin-left:5px;
+}
+
+#disKisim{
+
+height:45%;
+width:100%;
+background-color:white;
+float:right;
+margin-left:100px;
+
+
+
+
+}
+
+
+
+
+.gun{
+
+
+    float:left;
+	
+	text-align:center;
+
+
+    width:215px;
+
+
+    height:320px;
+
+
+    border:#FDDB87 solid 0px;
+
+
+    background-color:white;
+
+	margin-top:15px;
+    margin-right: 100px;
+    margin-left: 40px;
+
+
+
+}
+
+h1{
+
+color:#1392a6;
+font-family:Arial;
+font-size:40px;
+margin-left:10px;
+margin-top:20px;
+
+
+}
+
+
+
+
+h2{
+
+color:#1392a6;
+font-family:Arial;
+text-align:center;
+font-size:40px;
+margin-top:20px;
+
+
+}
+
+
+
+
+
+
+
+*{
+		margin:0;
+		padding:0;
+	}
+	#container {
+		height:90%;
+		width:100%;
+		float:left;
+		background:white;
+		overflow:hidden;
+		}
+	#slideshow {
+		height:55%;
+		width:60%;
+		position:relative;
+		margin: 10px auto;
+		margin-top:60px;
+		margin-left:120px;
+		background:rgba(236, 240, 241,1.0);
+		box-shadow:0px 0px 10px 1px  rgba(30,30,30,0.61);
+		border-radius:5px;
+		}
+	#slideshow img {
+		height:95%;
+		width:98%;
+		position: absolute;
+		z-index:10;
+		min-width:20%;
+		min-height:95%;
+		left:0;
+		right:0;
+		margin:10px auto;
+		}
+	#pager {	
+		height:20% auto;
+		width:75% auto;
+		margin: 20px auto;
+		float:left;
+		background-color:white;
+		margin-left:45px;
+		}
+	#pager div {		
+		height:120px;
+		width:120px;
+		border-radius: 5px;
+		background:rgba(236, 240, 241,1.0);
+		box-shadow:0px 0px 5px 1px rgba(0,0,0,0.50);
+		text-align:center;
+		position:relative;
+		margin: 10px 15px;
+		margin-right:1px;
+		float: left;
+		cursor: pointer;
+		}
+	#pager div img {
+		position:absolute;
+		left:0;
+		top:0;
+		bottom:0;
+		right:0;
+		margin:auto;
+			}
+
+
+
+body{
+  margin: 0 auto;
+  background-image: url("images/arkaplan.jpg");
+ background-repeat: no-repeat;
+ background-size: 100% 720px;
+}
+.container{
+ width: 500px;
+ height: 400px;
+ text-align: center;
+ background-color: #FDDB87;
+ border-radius: 4px;
+ margin: 0 auto;
+ margin-top: 150px;
+}
+.container img{
+ width: 120px;
+ height: 120px;
+ margin-top: -60px;
+ margin-bottom: 30px;
+ border-radius: 125px;
+}
+input[type="text"],input[type="password"]{
+ height: 45px;
+ width: 300px;
+ font-size: 18px;
+ margin-bottom: 20px;
+ border-radius: 15px;
+ background-color: white;
+ padding-left: 40px;
+}
+.btn-giris{
+ padding: 15px 25px;
+ cursor: pointer;
+ color: white;
+ border-radius: 4px;
+ border: none;
+ background-color: #2ECC71;
+ border-bottom: 5px solid #27AE60;
+ margin-bottom: 20px;
+}
+
+
+a:hover{
+ color: green;
+}
+
+
+.ic_bolme_f{
+
+
+
+
+    width:900px;
+    height:280px;
+	float:left;
+    background-color:white;
+	margin-left:70px;
+	margin-top:20px;
+  
+
+	
+
+
+
+}
+
+body{
+  margin: 0 auto;
+  background-image: url("images/arkaplan.jpg");
+ background-repeat: no-repeat;
+ background-size: 100% 720px;
+}
+.kayitol{
+ width: 500px;
+ height: 400px;
+ text-align: center;
+ background-color: #FDDB87;
+ border-radius: 4px;
+ margin: 0 auto;
+ margin-top: 150px;
+}
+.kayitol img{
+ width: 120px;
+ height: 120px;
+ margin-top: -60px;
+ margin-bottom: 30px;
+ border-radius: 125px;
+}
+input[type="email"],input[type="text"],input[type="password"]{
+ height: 50px;
+ width: 150px;
+ font-size: 18px;
+ margin-bottom: 20px;
+ border-radius: 15px;
+ background-color: white;
+ padding-left: 40px;
+}
+.btn-giris{
+ padding: 15px 25px;
+ cursor: pointer;
+ color: white;
+ border-radius: 4px;
+ border: none;
+ background-color: #2ECC71;
+ border-bottom: 5px solid #27AE60;
+ margin-bottom: 20px;
+}
+
+
+
+#iletisimA{
+width:1099px;
+height:100px; 
+background-color:white;
+margin-top:60px;
+float:left;
+
+}
+
+
+#iletisimA  h1{
+
+color:#1392a6;
+float:left;
+}
+
+#iletisimA  p{
+
+margin-left:40px; 
+margin-top:20px;
+color:red;;
+}
+
+.ibanner{
+width:400px;
+height:400px;
+background-color:blue;
+margin-left:20px;
+ 
+
+}
+
+.ilh3 h3{
+
+margin-left:40px;
+margin-top:20px;
+color:red;
+
+}
+
+.iletp p{
+margin-left:40px; 
+margin-top:20px;
+color:red;
+
+}
+
+#footer{
+width:100%;height:100px; background-color:white; float:left; margin-right:120px; 
+
+}
